@@ -1,17 +1,11 @@
 {
-  "name": "generator-readme",
+  "name": "mustache-x-markdown",
   "version": "0.1.0",
   "description": "",
   "scripts": {
-    "mustache": "node ./lib/mustache.js templates/test_mustache/forUser/README.md",
-    "mustache2": "node ./lib/mustache2.js templates/test_mustache_2/forUser"
+    "cli": "node ./bin/cli.js ./demo ./demo/README_hash.json"
   },
-  "files": [
-    "generators"
-  ],
-  "keywords": [
-    "yeoman-generator"
-  ],
+  "bin": "bin/cli.js",
   "devDependencies": {
     "@types/mem-fs": "^1.1.1",
     "@types/mem-fs-editor": "^4.0.1",
@@ -20,7 +14,6 @@
   "dependencies": {
     "mem-fs": "^1.1.3",
     "mem-fs-editor": "^4.0.2",
-    "mustache": "^2.3.0",
-    "yeoman-generator": "^2.0.5"
+    "mustache": "^2.3.0"
   }
 }
