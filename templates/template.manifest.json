@@ -12,15 +12,15 @@
         "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/installation.mustache"
     },
     "license": {
-        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/license.mustache"
+        "uri": "./fragments/license.mustache"
     },
     "motivation": {
-        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/motivation.mustache"
+        "uri": "./fragments/motivation.mustache"
     },
     "synopsis": {
-        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/synopsis.mustache"
+        "uri": "./fragments/synopsis.mustache"
     },
     "tests": {
-        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/tests.mustache"
+        "uri": "./fragments/tests.mustache"
     }
 }
