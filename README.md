@@ -1,5 +1,7 @@
 # markstache
 
+NOTE: `templates/fragments` folder is temporary and will be removed once all fragments have been designed and uploaded on their respective hosts.
+
 ## How to use: 
 
 1. Clone markstache: `git clone <repo_url>`
