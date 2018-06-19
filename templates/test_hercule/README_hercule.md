@@ -4,7 +4,6 @@
 
 :[Motivation](../fragments/motivation.md)
 
-
 :[Installation](../fragments/installation.md)
 
 :[API Reference](../fragments/api_reference.md)
