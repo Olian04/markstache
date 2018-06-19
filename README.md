@@ -1,7 +1,28 @@
 # markstache
 
-[markstache](https://github.com/Olian04/markstache) = [markdown](https://daringfireball.net/projects/markdown/syntax) + [mustache](https://mustache.github.io/)
+## How to use: 
 
-```sh
-markstache <path/to/target/folderl> [path/to/hash.json] [key=value...]
+1. Install markstache: `npm i -g markstache`
+2. Run markstache: `markstache <path/to/target/folder> <path/to/hash.json>`
+
+## How to update template: 
+
+1. `template.mustache` must exist in `templates` folder.
+    1. This file is a combined markdown + mustache file. Think of it as markdown++. Links to mustache docs can be found at the top of the file.
+2. `template.manifest.json` must exist in `templates` folder.
+
+```js
+// template.manifest.json
+{
+    fragment1: {
+        url: 'https://raw.githubusercontent.com/path/to/remote/fragment.mustache' 
+        // [Recommended] URL is used for remote fragments 
+    },
+    fragment2: {
+        uri: 'path/to/local/fragment.mustache'
+        // URI is used for local fragments
+        // Path must be relative to the templates folder
+        // Will be used if it exists, even if a URL is defined.
+    }
+}
 ```

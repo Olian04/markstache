@@ -1,0 +1,26 @@
+{
+    "api_reference": {
+        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/api_reference.mustache?token=AFPSnn9Cu7ncuvs3HPrSG4ZyxAv3aJY3ks5bMkq2wA%3D%3D"
+    },
+    "code_example": {
+        "uri": "./fragments/code_example.mustache"
+    },
+    "contributions": {
+        "uri": "./fragments/contributions.mustache"
+    },
+    "installation": {
+        "uri": "./fragments/installation.mustache"
+    },
+    "license": {
+        "uri": "./fragments/license.mustache"
+    },
+    "motivation": {
+        "uri": "./fragments/motivation.mustache"
+    },
+    "synopsis": {
+        "uri": "./fragments/synopsis.mustache"
+    },
+    "tests": {
+        "uri": "./fragments/tests.mustache"
+    }
+}
