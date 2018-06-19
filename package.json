@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "",
   "scripts": {
-    "mustache": "node ./lib/mustache.js templates/test_mustache/README.md"
+    "mustache": "node ./lib/mustache.js templates/test_mustache/forUser/README.md",
+    "mustache2": "node ./lib/mustache2.js templates/test_mustache_2/forUser"
   },
   "files": [
     "generators"
