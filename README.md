@@ -2,8 +2,10 @@
 
 ## How to use: 
 
-1. Install markstache: `npm i -g markstache`
-2. Run markstache: `markstache <path/to/target/folder> <path/to/hash.json>`
+1. Clone markstache: `git clone <repo_url>`
+2. _[For reoccurring usage]_ Run `npm link`, this will make `markstach` a globally recognized command. 
+    1. Run markstache: `markstache <path/to/target/folder> <path/to/hash.json>`
+3. _[For single use]_ Run markstache `node ./bin/cli.js <path/to/target/folder> <path/to/hash.json>`
 
 ## How to update template: 
 
