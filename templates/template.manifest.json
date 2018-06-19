@@ -1,26 +1,26 @@
 {
     "api_reference": {
-        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/api_reference.mustache?token=AFPSnn9Cu7ncuvs3HPrSG4ZyxAv3aJY3ks5bMkq2wA%3D%3D"
+        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/api_reference.mustache"
     },
     "code_example": {
-        "uri": "./fragments/code_example.mustache"
+        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/code_example.mustache"
     },
     "contributions": {
-        "uri": "./fragments/contributions.mustache"
+        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/contributions.mustache"
     },
     "installation": {
-        "uri": "./fragments/installation.mustache"
+        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/installation.mustache"
     },
     "license": {
-        "uri": "./fragments/license.mustache"
+        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/license.mustache"
     },
     "motivation": {
-        "uri": "./fragments/motivation.mustache"
+        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/motivation.mustache"
     },
     "synopsis": {
-        "uri": "./fragments/synopsis.mustache"
+        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/synopsis.mustache"
     },
     "tests": {
-        "uri": "./fragments/tests.mustache"
+        "url": "https://raw.githubusercontent.com/Olian04/markstache/master/templates/fragments/tests.mustache"
     }
 }
