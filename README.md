@@ -2,6 +2,20 @@
 
 NOTE: `templates/fragments` folder is temporary and will be removed once all fragments have been designed and uploaded on their respective hosts.
 
+## Run demo:
+
+To run the demo simply run:
+```
+npm run cli
+```
+Which is equivalent to running:
+```
+ node ./bin/cli.js ./demo ./demo/README_hash.json
+```
+
+If then try and edit the contents of `./demo/README_template.md`.
+And  then run `npm run cli` again, you can see your changes reflected in the `./demo/README.md` file.
+
 ## How to use: 
 
 1. Clone markstache: `git clone <repo_url>`
