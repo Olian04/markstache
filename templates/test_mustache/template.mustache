@@ -1,0 +1,50 @@
+{{! docs: https://mustache.github.io/mustache.5.html }}
+{{! docs: https://github.com/janl/mustache.js#partials }}
+# {{title}}
+
+<!-- USER_CHANGES_START -->
+{{#userChanges?}}
+{{{markdown}}}
+{{/userChanges?}}
+{{^userChanges?}}
+<!-- 
+    Want to add your own sections to the README?
+    Make sure to stay between the "USER_CHANGES_START" comment
+    and the "USER_CHANGES_END"  comment!
+-->
+{{/userChanges?}}
+<!-- USER_CHANGES_END -->
+
+<!-- Following segment is generated and any changed to it will be overwritten -->
+
+{{#fragments.synopsis}}
+    {{> synopsis}}
+{{/fragments.synopsis}}
+
+{{#fragments.code_example}}
+    {{> code_example}}
+{{/fragments.code_example}}
+
+{{#fragments.motivation}}
+    {{> motivation}}
+{{/fragments.motivation}}
+
+{{#fragments.installation}}
+    {{> installation}}
+{{/fragments.installation}}
+
+{{#fragments.api_reference}}
+    {{> api_reference}}
+{{/fragments.api_reference}}
+
+{{#fragments.tests}}
+    {{> tests}}
+{{/fragments.tests}}
+
+{{#fragments.contributors}}
+    {{> contributors}}
+{{/fragments.contributors}}
+
+{{#fragments.license}}
+    {{> license}}
+{{/fragments.license}}
