@@ -4,9 +4,7 @@ const common = {
 module.exports = {
     title: 'Test',
     description: '',
-    "userChanges?": {
-        markdown: '' // Empty string is considered Falsy.
-    },
+    "userChanges?": false,
     fragments: {
         api_reference: {
             port: common.port
