@@ -2,28 +2,32 @@
 
 NOTE: `templates/fragments` folder is temporary and will be removed once all fragments have been designed and uploaded on their respective hosts.
 
-## Run demo:
+## Run demo
 
 To run the demo simply run:
-```
+
+```sh
 npm run cli
 ```
+
 Which is equivalent to running:
-```
+
+```sh
  node ./bin/cli.js ./demo ./demo/README_hash.json
 ```
 
 If then try and edit the contents of `./demo/README_template.md`.
 And  then run `npm run cli` again, you can see your changes reflected in the `./demo/README.md` file.
 
-## How to use: 
+## How to use
 
 1. Clone markstache: `git clone <repo_url>`
-2. _[For reoccurring usage]_ Run `npm link`, this will make `markstach` a globally recognized command. 
+2. Install deps: `npm i`
+3. _[For reoccurring usage]_ Run `npm link`, this will make `markstach` a globally recognized command. 
     1. Run markstache: `markstache <path/to/target/folder> <path/to/hash.json>`
-3. _[For single use]_ Run markstache `node ./bin/cli.js <path/to/target/folder> <path/to/hash.json>`
+4. _[For single use]_ Run markstache `node ./bin/cli.js <path/to/target/folder> <path/to/hash.json>`
 
-## How to update template: 
+## How to update template
 
 1. `template.mustache` must exist in `templates` folder.
     1. This file is a combined markdown + mustache file. Think of it as markdown++. Links to mustache docs can be found at the top of the file.
